@@ -25,17 +25,6 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
-  -- {
-  --   'AckslD/swenv.nvim',
-  --   config=function()
-  --     require "custom.configs.swenv"
-  --   end,
-  --   lazy=false
-  -- },
-  -- {
-  --   "stevearc/dressing.nvim",
-  --   lazy=false
-  -- }
   {
     "linux-cultist/venv-selector.nvim",
     dependencies = { "neovim/nvim-lspconfig", "nvim-telescope/telescope.nvim" },
